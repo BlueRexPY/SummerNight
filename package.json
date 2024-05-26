@@ -1,0 +1,28 @@
+{
+  "name": "summer-night",
+  "displayName": "Summer Night",
+  "description": "🍹 Sun-Kissed Mango Syrup, Tropical Hibiscus Extract, Island Breeze Dust, Refreshing Pineapple Nectar, Tropical Paradise Garnish. Bon appetit!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "license": "MIT",
+  "publisher": "RuslanRystsov",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlueRexPY/SummerNight"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Summer Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/summer-night-color-theme.json"
+      }
+    ]
+  }
+}
